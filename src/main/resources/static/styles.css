@@ -1,0 +1,90 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Button and Link Styles */
+a, input[type="submit"] {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+a:hover, input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Form Styles */
+form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    padding: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Container for the page */
+.container {
+    max-width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
